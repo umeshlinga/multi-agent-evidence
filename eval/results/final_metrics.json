@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "variants": 36,
+    "claims": 48,
+    "claims_supported_final": 48,
+    "claims_overstated_final": 0,
+    "claims_unsupported_final": 0,
+    "citation_accuracy_final": 1.0,
+    "decline_correct": 36,
+    "mean_completeness": 1.0,
+    "mean_seconds_per_variant": 1.3980555555555556,
+    "llm_calls": 36,
+    "prompt_tokens": 14710,
+    "completion_tokens": 2352,
+    "total_tokens": 17062,
+    "est_cost_usd": 0.0096
+  },
+  "multi_agent": {
+    "variants": 36,
+    "claims": 48,
+    "claims_supported_final": 48,
+    "claims_overstated_final": 0,
+    "claims_unsupported_final": 0,
+    "citation_accuracy_final": 1.0,
+    "decline_correct": 36,
+    "mean_completeness": 1.0,
+    "mean_seconds_per_variant": 3.7436111111111114,
+    "llm_calls": 94,
+    "prompt_tokens": 39597,
+    "completion_tokens": 6628,
+    "total_tokens": 46225,
+    "est_cost_usd": 0.0264,
+    "critic_rounds": 47,
+    "critic_rejections": 16
+  }
+}

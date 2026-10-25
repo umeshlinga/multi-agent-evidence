@@ -1,0 +1,44 @@
+{
+  "baseline": {
+    "runs": 36,
+    "errors": 0,
+    "claims_total": 48,
+    "claims_supported": 48,
+    "claims_unsupported": 0,
+    "claims_unverifiable_pending_manual": 0,
+    "claims_flagged_intensifier": 0,
+    "citation_accuracy_decided_only": 1.0,
+    "decline_correct": 36,
+    "decline_total": 36,
+    "mean_completeness": 1.0,
+    "mean_seconds": 1.3980555555555556,
+    "tokens": {
+      "calls": 36,
+      "prompt": 14710,
+      "completion": 2352,
+      "total": 17062
+    }
+  },
+  "multi_agent": {
+    "runs": 36,
+    "errors": 0,
+    "claims_total": 48,
+    "claims_supported": 46,
+    "claims_unsupported": 2,
+    "claims_unverifiable_pending_manual": 0,
+    "claims_flagged_intensifier": 0,
+    "citation_accuracy_decided_only": 0.9583333333333334,
+    "decline_correct": 36,
+    "decline_total": 36,
+    "mean_completeness": 1.0,
+    "mean_seconds": 3.7436111111111114,
+    "tokens": {
+      "calls": 94,
+      "prompt": 39597,
+      "completion": 6628,
+      "total": 46225
+    },
+    "critic_rounds": 47,
+    "rejections": 16
+  }
+}
